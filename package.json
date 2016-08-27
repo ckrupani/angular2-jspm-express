@@ -1,0 +1,45 @@
+{
+  "name": "angular2-jspm-express",
+  "version": "1.0.0",
+  "description": "It is an angular2, jspm and express application boilerplate.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "author": "Chirag Rupani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "jspm": "^0.16.33",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {},
+  "jspm": {
+    "directories": {
+      "baseURL": "app_client"
+    },
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.15",
+      "bootstrap": "github:twbs/bootstrap@^3.3.6",
+      "css": "github:systemjs/plugin-css@^0.1.21",
+      "es6-shim": "github:es-shims/es6-shim@^0.35.0",
+      "reflect-metadata": "npm:reflect-metadata@0.1.2",
+      "rxjs": "npm:rxjs@^5.0.0-beta.6",
+      "ts": "github:frankwallis/plugin-typescript@^4.0.7",
+      "zone.js": "npm:zone.js@^0.6.12"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
